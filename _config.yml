@@ -1,0 +1,25 @@
+title: 信创比赛指导材料
+description: 信创比赛学习引导资料集合
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# 配置目录结构
+collections:
+  第一届:
+    output: true
+  第二届:
+    output: true
+
+# GitHub Pages 配置
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# 排除不需要处理的文件和大文件目录
+exclude:
+  - README.md
+  - LICENSE
+  - 第二届/Vastbase安装包及java驱动/Vastbase-installer-2.2_Build15-centos_7-x86_64.tar.gz
+  - 第二届/Vastbase安装包及java驱动/VDS-3.4-Windows-x86_64.zip
+  - 第二届/中创中间件官方手册以及安装包/InforSuiteAS_StE_V10.0.5.3.9.zip
