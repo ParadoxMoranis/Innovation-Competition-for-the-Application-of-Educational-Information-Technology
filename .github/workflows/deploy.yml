@@ -32,5 +32,3 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v2
-      with:
-        enablement: true  # ✅ 添加 enablement 参数以确保部署功能启用
